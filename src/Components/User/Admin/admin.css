@@ -1,0 +1,29 @@
+.MainAdmin
+{
+    display: grid;
+}
+.profile
+{
+    display: flex;
+}
+.Line-1A,
+.Line-2A,
+.Line-3A,
+.Line-4A,
+.Line-5A,
+.Line-6A
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #D3D3D3 solid;
+    padding: 1em;
+    font-family: 'Noto Sans';
+    align-items: center;
+
+}
+.Line-7A
+{
+    padding: 1em;
+    font-family: 'Noto Sans';
+
+}

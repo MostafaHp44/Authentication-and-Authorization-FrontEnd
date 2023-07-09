@@ -1,0 +1,56 @@
+.Row-2L
+{
+    display: grid;
+}
+input
+{
+    width: 30em;
+    height: 4em;
+    border-radius: 14px;
+    margin: 1em;
+}
+.button
+{
+background-color: #2F80ED;
+color: #FFFFFF;
+border-radius: 25px;
+width: 30em;
+height: 4em;
+font-family: 'Noto Sans', sans-serif;
+}
+.Row-3L
+{
+    color: #828282;
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+
+}
+.Row-4L
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.facebook,
+.githhub,
+.google,
+.twitter
+{
+    border-radius: 50%;
+    border: 1px #828282 solid;
+    padding: 10px 10px 5px 10px;
+}
+.Row-5L
+{
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+}
+.Row-5L :nth-child(1)
+{
+    color: #828282;
+}
+.Row-5L :nth-child(2)
+{
+    color: #2D9CDB;
+   
+}

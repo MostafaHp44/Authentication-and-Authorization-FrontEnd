@@ -1,0 +1,56 @@
+.MainPanel
+{
+    border: 1px #BDBDBD solid ;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    width: 40em;
+}
+.Rows
+{
+    display: grid;
+}
+.Row-1P
+{
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Sans', ;
+}
+.Row-1P,
+.Row-2P,
+.Row-3P,
+.Row-4P
+{
+    padding-left: 3em;
+    margin: 1em;
+}
+.devchallanges
+{
+    width: 15px;
+}
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 768px) 
+{
+.MainPanel
+{
+    border:none;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    width: 40em;
+}
+
+
+
+    .Row-1P,
+    .Row-2P,
+    .Row-3P,
+    .Row-4P
+    {
+        padding-left: 6em;
+        margin: 1em;
+    }
+
+}

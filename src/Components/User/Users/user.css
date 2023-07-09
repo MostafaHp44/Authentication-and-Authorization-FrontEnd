@@ -1,0 +1,103 @@
+.MainUser
+{
+    display: grid;
+}
+.MainBar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+.username
+{
+    display: flex;
+    align-items: center;
+}
+.picuser,
+.picadmin
+{
+    width: 2em;
+}
+.profileuser
+{
+    display: grid;
+}
+.listuser
+{
+    border: none;
+    display: flex;
+    transition: 0.3s;
+}
+.aboutuser
+{
+    transition: 0.4s;
+}
+.row-1about,
+.row-2about,
+.row-3about
+{
+    border-bottom: 1px #8d8d8d solid ;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+.row-3about
+{
+    color: red;
+}
+.Row-1U 
+{
+text-align: center;
+padding: 1em;
+}
+.TableInformation
+{
+    border: 1px #D3D3D3 solid;
+    border-radius: 25px;
+}
+
+.Line-1,
+.Line-2,
+.Line-3,
+.Line-4,
+.Line-5
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #D3D3D3 solid;
+    padding: 1em;
+    font-family: 'Noto Sans';
+    align-items: center;
+
+}
+.Line-6
+{
+    padding: 1em;
+    font-family: 'Noto Sans';
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.Info
+{
+padding: 0em 20em 0em 0em;
+}
+.info2
+{
+    color: #D3D3D3;
+    font-family: 'Noto Sans';
+
+}
+button
+{
+    background: white;
+    border: 1px #D3D3D3 solid;
+    color: #D3D3D3;
+    font-family: 'Noto Sans';
+    font-weight: 900;
+    width: 5em;
+    height: 3em;
+}

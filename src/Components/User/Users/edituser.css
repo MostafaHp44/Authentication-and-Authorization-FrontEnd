@@ -1,0 +1,69 @@
+.TableInformation
+{
+    padding: 3em;
+}
+.btnback
+{
+    display: flex;
+    align-items: center;
+    color: #2D9CDB;
+    border: none;
+}
+.Line-1E
+{
+font-weight: 400;
+}
+.Line-2E,
+.Line-3E,
+.Line-4E,
+.Line-5E
+{
+    padding: 1em;
+}
+.Line-2E
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Line-3E,
+.Line-4E,
+.Line-5E
+{
+display: grid;
+color:rgb(79, 79, 79);
+}
+.edituserinput
+{
+    border: 1px #D3D3D3 solid;
+}
+.btnsave
+{
+    padding: 1em;
+    background-color: royalblue;
+    margin: 1em;
+    border-radius: 10px;
+    color: white;
+    height: 4em;
+    width: 6em;
+
+}
+label {
+    background-color: indigo;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  #file-chosen{
+    margin-left: 0.3rem;
+    font-family: sans-serif;
+  }
+  .profilephoto
+  {
+    width: 2em;
+  }
